@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "rollupme": "./debugger.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^8.8.2",
+    "magic-string": "^0.30.0",
+    "rollup": "^3.20.2"
+  }
 }
