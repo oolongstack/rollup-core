@@ -1,4 +1,10 @@
-console.log("你好啊李银河");
-console.log("你好啊李银河");
-console.log("你好啊李银河");
-console.log("你好啊李银河");
+import { msg, age } from "./msg";
+
+function say(times) {
+  console.log("msg", msg);
+}
+say();
+
+function foo() {
+  console.log(1);
+}

@@ -1,4 +1,8 @@
-console.log("你好啊李银河");
-console.log("你好啊李银河");
-console.log("你好啊李银河");
-console.log("你好啊李银河");
+const msg = "msg";
+function say(times) {
+  console.log("msg", msg);
+}
+say();
+function foo() {
+  console.log(1);
+}
