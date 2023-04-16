@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import path from "path";
 import { fileURLToPath } from "url";
-import rollup from "./lib/rollup.js";
+import rollup from "./libs/rollup.js";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const entry = path.resolve(__dirname, "src/main.js");
